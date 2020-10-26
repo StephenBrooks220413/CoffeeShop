@@ -1,0 +1,20 @@
+nav a {
+	display: inline-flex;
+	flex-direction: inherit;
+	flex-flow: column;
+	width: 100%;
+	height: auto;
+	padding: 5px;
+	text-decoration: none;
+}
+
+nav .nav-wrapper a {
+	word-spacing: 12px;
+	font-size: 1.3em;
+}
+
+nav .nav-wrapper a, .nav-items {
+	transition-timing-function: ease-in-out;
+	transition-delay: 0.2s;
+	color: grey;
+}
