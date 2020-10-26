@@ -29,13 +29,13 @@
               <ul class="grt-menu">
                 <li class="active"><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="menu.html">menu</a></li>
                 <li><a href="blog.html">Blog</a></li>
-                <li class="grt-dropdown"><a>dropdown</a>
+                <li class="grt-dropdown"><a>quickes</a>
                   <ul class="grt-dropdown-list">
-                    <li><a href="item1.html">Menu 1</a></li>
-                    <li><a href="item2.html">Menu 2</a></li>
-                    <li><a href="item3.html">Menu 3</a></li>
+                    <li><a href="item1.html">morning</a></li>
+                    <li><a href="item2.html">afternoon</a></li>
+                    <li><a href="item3.html">evening</a></li>
                   </ul>
                 </li>
                 <li><a href="contact.html">contact</a></li>               
@@ -179,11 +179,19 @@
           </p>
           <br> <br>
           <h1>Have suggestions?</h1>
-          <form name="contact" netlify>
-            <label>Name:</label> <input type="text" name="name"> <br>
-            <label>Email:</label> <input type="email" name="email"> <br>
-            <label>Message:</label> <textarea type="text" name="message" cols="20" rows="4" spellcheck="true" maxlength="255" ></textarea> <br>
-            <button type="submit" class="btn btn-primary">send</button>
+          <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <label>Your Name: <input type="text" name="name" required /></label>   
+            </p>
+            <p>
+              <label>Your Email: <input type="email" name="email" required /></label>
+            </p>
+            <p>
+              <label>Message: <textarea name="message" required spellcheck="True" maxlength="255"></textarea></label>
+            </p>
+            <p>
+              <button class="btn btn-primary" type="submit">Send</button> <button class="btn btn-danger" type="reset">Clear</button>
+            </p>
           </form>
         </div>
       </div>
