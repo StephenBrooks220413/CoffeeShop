@@ -1,0 +1,40 @@
+.product {
+    display: inline-block;
+    margin: 5px;
+    width: 100%;
+    }
+    
+    #basketImage {
+    position: absolute;
+    right: 36px;
+    top: 90px;
+    }
+    
+    #itemCounter {
+    position: absolute;
+    right: 36px;
+    top: 120px;
+    }
+    
+    #orderTotal {
+        position: absolute;
+        right: 36px;
+        top: 160px;
+    }
+
+i {
+    font-size: 18px;
+    color:grey;
+}
+
+button a {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: white;
+    text-decoration: none;
+}
+
+button a:hover {
+    color: white;
+    text-decoration: none;
+}
